@@ -5,6 +5,25 @@ This project analyses Google Maps reviews of tourist attractions in Bali. It use
 - **Sentiment classification**: predicts negative, neutral or positive sentiment from the star rating. It compares four inputs: review text plus an image caption, text only, caption only, and CLIP image embeddings.
 - **Topic modelling**: finds recurring themes in the reviews with BERTopic, then merges them into interpretable tourism themes.
 
+## Publication
+
+This repository contains the code for:
+
+> M. Syukron, J. R. Mardani, A. T. Amanda, and T. S. Hutagaol, "Strategic Action for Enhancing Bali Tourism Based on Sentiment Analysis and Topic Modeling," *IJID (International Journal on Informatics for Development)*, vol. 15, no. 1, pp. 63–74, 2026. doi: [10.14421/ijid.2026.6197](https://doi.org/10.14421/ijid.2026.6197). [[Article]](https://ejournal.uin-suka.ac.id/saintek/ijid/article/view/6197)
+
+```bibtex
+@article{syukron2026bali,
+  title   = {Strategic Action for Enhancing Bali Tourism Based on Sentiment Analysis and Topic Modeling},
+  author  = {Syukron, Muhamad and Mardani, Jahidata Royyanida and Amanda, Adelia Tria and Hutagaol, Tesalonika Sharavova},
+  journal = {IJID (International Journal on Informatics for Development)},
+  volume  = {15},
+  number  = {1},
+  pages   = {63--74},
+  year    = {2026},
+  doi     = {10.14421/ijid.2026.6197}
+}
+```
+
 ## Pipeline
 
 Everything is in [`Notebook.ipynb`](Notebook.ipynb):
