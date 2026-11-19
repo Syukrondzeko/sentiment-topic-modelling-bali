@@ -1,0 +1,22 @@
+# Datasets and model outputs are not published
+*.csv
+
+# Raw scraper exports contain reviewer IDs, profile URLs and photo URLs
+raw_datasets/
+
+# Reviewers' photos and generated captions (rebuild with steps 2-3 of the notebook)
+images/
+captions/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
